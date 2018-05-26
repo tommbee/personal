@@ -1,0 +1,113 @@
+/*____Modules____*/
+
+body {
+	height: 100%;
+	width: 100%;
+	color: white;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #f0006c;
+	//background-image: -webkit-linear-gradient( -45deg, hsl(333, 100%, 47%), hsl(312, 44%, 37%));
+}
+
+.cssgradients.rgba body {
+	background: transparent;
+	background-image: -webkit-linear-gradient( -45deg, #f0006c, #883577);
+}
+
+.hr {
+	background: none;
+	border-bottom: solid 1px white;
+	width: 50%;
+	margin: 0 auto;
+	max-width: 130px;
+	opacity: 0.2;
+	margin-bottom: 15px;
+}
+
+footer {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	margin: 5px 0;
+}
+
+h1 {
+	font-size: 1.6rem;
+	@media only screen and (min-width: $tablet) {
+		font-size: 2.6rem;
+	}
+}
+
+.cloud {
+	width: 54px;
+	height: 33px;
+	background: url("../img/cloud.png") no-repeat center center;
+	background-size: contain;
+	display: block;
+	margin: 0 auto 15px auto;
+}
+
+.br {
+	display: inline;
+	@media only screen and (min-width: $tablet) {
+		display: block;
+		clear: both;
+	}
+}
+
+p, a {
+	color: white;
+	font-family: "warnock-pro", times;
+	margin: 5px 0;
+	line-height: 1.8rem;
+	font-size: 1rem;
+	@media only screen and (min-width: $tablet) {
+		font-size: 1.2rem;
+	}
+}
+
+a {
+	font-style: italic;
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 16px;
+	opacity: 0.5;
+	transition: opacity .5s linear;
+	/*border-bottom: dotted 1px white;*/
+	padding-top: 60px;
+}
+
+.twitter {
+	background: url("../img/twitter.svg") no-repeat center center;
+}
+
+.github {
+	background: url("../img/github.svg") no-repeat center center;
+}
+
+.contact {
+	background: url("../img/email.svg") no-repeat center center;
+}
+
+.linkedin {
+	background: url("../img/linkedin.svg") no-repeat center center;
+}
+
+a:hover {
+	opacity: 1;
+}
+
+header {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	left: 0; right: 0;
+	transform: translate(0, -60%);
+}
