@@ -6,6 +6,6 @@ COPY . /home/node/app
 
 ENV PORT=80
 
-EXPOSE 80
+EXPOSE 8001
 
 CMD ["npm", "start"]
