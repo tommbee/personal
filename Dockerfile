@@ -4,7 +4,7 @@ WORKDIR /home/node/app
 
 COPY . /home/node/app
 
-ENV PORT=80
+ENV PORT=8001
 
 EXPOSE 8001
 
